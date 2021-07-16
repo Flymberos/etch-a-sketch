@@ -2,7 +2,6 @@ let gridContainer = document.querySelector(".grid-container");
 let clearButton = document.querySelector("#clear-button");
 let changeSizeButton = document.querySelector("#change-size-button")
 let root = document.documentElement;
-
 let gridElementsReference;
 
 function addGridItems(size = 16){

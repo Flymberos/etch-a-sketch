@@ -24,6 +24,10 @@
     width:auto;
 }
 
+.grid-items:hover {
+    transition: background-color 0.2s linear;
+}
+
 .black-color {
     background-color: black;
 }
@@ -44,4 +48,5 @@
     border: none;
     outline: none;
     padding: 10px 25px 10px 25px;
+    font-weight: bold;
 }
