@@ -1,0 +1,47 @@
+:root {
+    --column-count: 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 3em;
+}
+
+.grid-container {
+    max-width: 600px;
+    max-height: 600px;
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: repeat(var(--column-count), 1fr);
+}
+
+.grid-items {
+    border: 1px solid black;
+    height: auto;
+    width:auto;
+}
+
+.black-color {
+    background-color: black;
+}
+
+.clear-color {
+    background-color: white;
+}
+
+.options-menu {
+    max-width: 600px;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    border: none;
+    outline: none;
+    padding: 10px 25px 10px 25px;
+}
